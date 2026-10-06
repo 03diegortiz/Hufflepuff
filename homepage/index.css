@@ -30,16 +30,23 @@ p {
     gap: 30px;
 }
 
+
 .pre-sprint h2 {
     padding-left: 20px;
     padding-right: 20px;
     text-align: center;
+    transition: 0.2s;
 }
 
 
 .link {
     border: 2px solid black;
     background-color: rgba(170, 170, 248, 0.834);
+    transition: 0.2s;
+}
+
+.link:hover {
+    transform: scale(1.1);
 }
 
 .sprint {
@@ -58,6 +65,11 @@ p {
     padding: 20px;
     text-align: center;
     background-color: rgba(120, 120, 231, 0.864);
+    transition: 0.2s;
+}
+
+.sprintlink:hover {
+    transform: scale(1.1);
 }
 
 footer {
