@@ -43,6 +43,8 @@ p {
     border: 2px solid black;
     background-color: rgba(170, 170, 248, 0.834);
     transition: 0.2s;
+    color: white;
+    text-decoration: none;
 }
 
 .link:hover {
