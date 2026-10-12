@@ -1,0 +1,20 @@
+
+body {
+    background-color: rgb(158, 131, 216);
+}
+
+h1 {
+    text-align: center;
+    margin: 30px;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    justify-items: center;
+}
+
+.images img {
+    width: 80%;
+}
