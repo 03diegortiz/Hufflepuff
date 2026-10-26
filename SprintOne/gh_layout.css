@@ -1,0 +1,93 @@
+
+@charset "utf-8";
+
+/* Structural Styles */
+
+/* Includes padding and borders within an element's dimensions */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    min-width: 640px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex: 1;
+}
+
+body > header > img { /* Logo image (Mount Rainier pic) */
+    width: 100%;
+    height: 600px;
+    display: block;
+    margin: 0;
+    object-fit: cover;
+    object-position: center top;
+}
+
+#leftcol { /* Welcome to Good Hike Trails and list of trails */
+    width: 100%;
+    padding: 1em;
+}
+
+h1 {
+    text-align: center;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Header and Navigation */
+header > nav {
+    display: table;
+    width: 100%;
+    padding: 10px;
+}
+
+header > nav > ul {
+    display: table-row;
+    list-style-type: none;
+}
+
+header > nav > ul > li {
+    display: table-cell;
+    text-align: center;
+}
+
+header > nav a {
+    display: block;
+    width: 100%;
+}
+
+/* List of Trails and Learn More Containers */
+.sidebar-container {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.listsoftrails, .LearnMore {
+    flex: 1;
+    min-width: 0;
+    padding: 15px;
+}
+
+.listsoftrails h2, .LearnMore h2 {
+    padding-left: 15px;
+}
+
+.LearnMore {
+    padding-left: 0.5em;
+}

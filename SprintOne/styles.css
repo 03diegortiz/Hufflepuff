@@ -1,0 +1,75 @@
+
+/* General Page Styling */
+html {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+/* Main Heading */
+h1 {
+    font-family: "Arial Black", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    color: rgb(26, 19, 121);
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border-bottom: 2px solid rgb(255, 224, 47);
+}
+
+/* Header Navigation */
+nav {
+    background-color: rgb(5, 4, 57);
+}
+
+header nav a {
+    color: rgb(223, 197, 52);
+    text-decoration: none;
+}
+
+/* Main Content */
+#leftcol {
+    background-color: rgb(253, 253, 255);
+}
+
+section {
+    color: rgb(1, 1, 1);
+    font-size: 18px;
+}
+
+/* Trail List and Learn More Boxes */
+.listsoftrails, .LearnMore {
+    background-color: rgb(5, 4, 57);
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    color: white;
+    font-size: 16px;
+}
+
+.listsoftrails ul, .LearnMore ul {
+    list-style: square;
+}
+
+.listsoftrails li, .LearnMore li {
+    line-height: 2;
+}
+
+.listsoftrails h2, .LearnMore h2 {
+    color: rgb(223, 197, 52);
+}
+
+/* Trail Links */
+.listsoftrails a:link,
+.listsoftrails a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(5, 4, 57);
+    color: rgb(223, 197, 52);
+    font-size: 10px;
+}
