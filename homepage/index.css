@@ -68,6 +68,8 @@ p {
     text-align: center;
     background-color: rgba(120, 120, 231, 0.864);
     transition: 0.2s;
+    text-decoration: none;
+    color: white;
 }
 
 .sprintlink:hover {
