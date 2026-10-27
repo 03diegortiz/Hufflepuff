@@ -1,7 +1,7 @@
 
 /* General Page Styling */
 html {
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif; /* base font for all page*/
 }
 
 body {
@@ -10,54 +10,52 @@ body {
 
 /* Main Heading */
 h1 {
-    font-family: "Arial Black", Arial, sans-serif;
+    font-family: "Arial Black", Arial, sans-serif; /* bold and captivating font */
     font-weight: 500;
-    font-size: 48px;
+    font-size: 48px;					/* enlarged the main heading text*/
     color: rgb(26, 19, 121);
     margin-top: 0.5em;
     margin-bottom: 0.5em;
-    border-bottom: 2px solid rgb(255, 224, 47);
+    border-bottom: 2px solid rgb(255, 224, 47); /* added a border for styling */
 }
 
 /* Header Navigation */
-nav {
-    background-color: rgb(5, 4, 57);
-}
-
-header nav a {
-    color: rgb(223, 197, 52);
+header nav ul li a {
+    color: rgb(223, 197, 52); /*text in the navigation bar*/
     text-decoration: none;
 }
 
-/* Main Content */
+nav{
+    background-color: rgb(5, 4, 57);
+	color: rgb(182, 166, 118);
+}
+/* LEFT COLUMN */
 #leftcol {
     background-color: rgb(253, 253, 255);
 }
 
 section {
     color: rgb(1, 1, 1);
-    font-size: 18px;
+	padding: 1em;
+	font-size: 18px; 	/* slightly larger section text*/
 }
 
-/* Trail List and Learn More Boxes */
+/* Trail List and Learn More Boxes combined*/
 .listsoftrails, .LearnMore {
     background-color: rgb(5, 4, 57);
-    border: 1px solid #ccc;
     border-radius: 1em;
     color: white;
     font-size: 16px;
+	border: 1px solid black;
 }
 
-.listsoftrails ul, .LearnMore ul {
-    list-style: square;
-}
-
-.listsoftrails li, .LearnMore li {
-    line-height: 2;
+.listsoftrails ul li, .LearnMore ul li{
+    list-style: square; /* square bullet points */
+	line-height: 2;		/* spacing between bullet points*/
 }
 
 .listsoftrails h2, .LearnMore h2 {
-    color: rgb(223, 197, 52);
+    color: rgb(223, 197, 52); /* colored headings */
 }
 
 /* Trail Links */
@@ -71,5 +69,7 @@ section {
 footer {
     background-color: rgb(5, 4, 57);
     color: rgb(223, 197, 52);
+	text-align: center;
+	padding: 10px;
     font-size: 10px;
 }
