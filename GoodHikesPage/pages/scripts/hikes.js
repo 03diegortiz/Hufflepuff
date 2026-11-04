@@ -49,6 +49,43 @@ const hikes = [
         scenery: "Narada Falls, lush forests, rocky cliffs, and waterfall mist",
         image: "../images/NaradaFalls.jpg",
         map: "../images/NaradaFallsMap.png"
+    },
+
+    {
+        id: "pinnacle-peak",
+        name: "Pinnacle Peak Trail",
+        location: "Mount Rainier National Park, Paradise Area",
+        difficulty: "Strenuous 🔴",
+        trailType: "Out and Back",
+        distance: 3,
+        estimatedTime: "Unknown",
+        elevationGain: 1581,
+        parking: "No parking pass or permit required",
+        entranceFee: "National Park entrance fee required",
+        pets: "Not allowed on trails",
+        scenery: "View of the north side of Mount Rainier, the White River valley, surrounding farmlands, and nearby towns like Buckley and Enumclaw",
+        image: "../images/PinaclePeakTrail.jpg",
+        map: "../images/PinnaclePeakMap.jpg"
+    },
+
+    {
+        id: "burroughs-mountain",
+        name: "Burroughs Mountain Trail",
+        location: "Mount Rainier National Park, Paradise Area",
+        difficulty: "Hard 🟠",
+        trailType: "Out and Back",
+        distance: 9,
+        estimatedTime: "Unknown",
+        elevationGain: 2500,
+        parking: "Parking pass required",
+        entranceFee: "National Park entrance fee required",
+        pets: "Not allowed on trails",
+        scenery: "Offers some of the closest and most dramatic vantage points of Mount Rainier and its massive ice fields",
+        image: "../images/BurroughsMountainTrail.jpg",
+        map: "../images/BurroughsMountainMap.jpg"
     }
+
+
+
 ];
 
