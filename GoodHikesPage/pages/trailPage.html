@@ -11,7 +11,7 @@
             <h2>&#9650; Good Hike Trails</h2>
             <nav class="vertical">
                 <ul>
-                <li><a href="../GoodHike_Trails.html">Home</a></li>
+                <li><a href="GoodHike_Trails.html">Home</a></li>
                 <li><a href="pages/explore.html">Explore</a></li>
                 <li><a href="pages/favorite-trails.html">Favorite Trails</a></li>
                 <li><a href="pages/contact.html">Contact Us</a></li>
@@ -24,17 +24,17 @@
         <main>
             <section class="trail-images">
                 <figure>
-                    <img src="../../images/NaradaFalls.jpg" alt="Narada Falls">
+                    <img id="hikeImage" src="" alt="Trail photograph">
                 </figure>
 
                 <figure>
-                    <img src="../../images/NaradaFallsMap.png" alt="Map of Narada Falls">
+                    <img id="hikeMap" src="" alt="Trail map">
                 </figure>
             </section>
             
 
             <section id="trail-name">
-                <h1>Narada Falls</h1>
+                <h1 id="hikeName"></h1>
             </section>
                 
             <div id="hikeMain">
@@ -42,18 +42,20 @@
 
                     <h2>General Information:</h2>
 
-                   <ul>
-                        <li><strong>Location:</strong> Mount Rainier National Park, Paradise Area</li>
-                        <li><strong>Difficulty:</strong> Easy to Moderate</li>
-                        <li><strong>Trail Type:</strong> Out and Back</li>
-                        <li><strong>Distance:</strong> Approximately 0.2 miles round trip</li>
-                        <li><strong>Estimated Time:</strong> 15–30 minutes</li>
-                        <li><strong>Elevation Gain:</strong> Approximately 100 feet</li>
-                        <li><strong>Parking:</strong> Narada Falls parking lot along Paradise Road</li>
-                        <li><strong>Entrance Fee:</strong> National Park entrance fee required</li>
-                        <li><strong>Pets:</strong> Not allowed on trails</li>
-                        <li><strong>Scenery:</strong> Narada Falls, lush forests, rocky cliffs, and waterfall mist</li>
+                    
+                    <ul>
+                        <li><strong>Location:</strong> <span id="Location"></span></li>
+                        <li><strong>Difficulty:</strong> <span id="Difficulty"></span></li>
+                        <li><strong>Trail Type:</strong> <span id="TrailType"></span></li>
+                        <li><strong>Distance:</strong> <span id="Distance"></span></li>
+                        <li><strong>Estimated Time:</strong> <span id="EstTime"></span></li>
+                        <li><strong>Elevation Gain:</strong> <span id="Elevation"></span></li>
+                        <li><strong>Parking:</strong> <span id="Parking"></span></li>
+                        <li><strong>Entrance Fee:</strong> <span id="Fee"></span></li>
+                        <li><strong>Pets:</strong> <span id="Pets"></span></li>
+                        <li><strong>Scenery:</strong> <span id="Scenery"></span></li>
                     </ul>
+
                 </section>
 
                 <section class="booking">
@@ -74,6 +76,9 @@
 
         <footer>
          Good Hike Trails &copy; 2026 All Rights Rxeserved
-      </footer>
+        </footer>
+
+        <script src="scripts/hikes.js"></script>
+        <script src="scripts/trailPage.js"></script>
     </body>
 </html>
