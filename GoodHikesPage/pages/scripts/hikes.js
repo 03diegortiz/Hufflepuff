@@ -1,10 +1,10 @@
-
+//Hike data
 const hikes = [
     {
         id: "nisqually-vista",
         name: "Nisqually Vista Trail",
         location: "Mount Rainier National Park",
-        difficulty: "Easy 🟢",
+        difficulty: "Easy",
         trailType: "Loop",
         distance: 1.2,
         estimatedTime: "45–60 minutes",
@@ -21,7 +21,7 @@ const hikes = [
         id: "myrtle-falls",
         name: "Myrtle Falls",
         location: "Mount Rainier National Park, Paradise",
-        difficulty: "Easy 🟢",
+        difficulty: "Easy",
         trailType: "Out and Back",
         distance: 0.8,
         estimatedTime: "20–30 minutes",
@@ -38,7 +38,7 @@ const hikes = [
         id: "narada-falls",
         name: "Narada Falls",
         location: "Mount Rainier National Park, Paradise Area",
-        difficulty: "Easy 🟢",
+        difficulty: "Easy",
         trailType: "Out and Back",
         distance: 0.2,
         estimatedTime: "15–30 minutes",
@@ -55,7 +55,7 @@ const hikes = [
         id: "pinnacle-peak",
         name: "Pinnacle Peak Trail",
         location: "Mount Rainier National Park, Paradise Area",
-        difficulty: "Strenuous 🔴",
+        difficulty: "Strenuous",
         trailType: "Out and Back",
         distance: 3,
         estimatedTime: "Unknown",
@@ -72,7 +72,7 @@ const hikes = [
         id: "burroughs-mountain",
         name: "Burroughs Mountain Trail",
         location: "Mount Rainier National Park, Paradise Area",
-        difficulty: "Hard 🟠",
+        difficulty: "Hard",
         trailType: "Out and Back",
         distance: 9,
         estimatedTime: "Unknown",
