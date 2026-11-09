@@ -86,3 +86,47 @@ header > nav a {
 .listsoftrails h2, .LearnMore h2 {
     padding-left: 15px; 	/* Adds space between the header and border */
 }
+
+/* MOBILE MEDIA QUERY */
+@media screen and (max-width: 767px) {
+
+    body {
+        min-width: 0;
+    }
+
+    body > header > img {
+        height: 250px;
+    }
+
+    header > nav > ul {
+        display: block;
+        padding: 0;
+    }
+
+    header > nav > ul > li {
+        display: block;
+        padding: 8px;
+    }
+
+    main {
+        width: 95%;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .sidebar-container {
+        flex-direction: column;
+    }
+
+    .listsoftrails,
+    .LearnMore {
+        width: 100%;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+
+}
