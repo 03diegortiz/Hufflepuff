@@ -56,8 +56,18 @@ section {
 
 .listsoftrails h2, .LearnMore h2 {
     color: rgb(223, 197, 52); /* colored headings */
+}
+
+#filterContainer {
     border-bottom: 2px solid rgb(223, 197, 52);
-    padding-bottom: 10px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+select {
+    border-radius: 3px;
+    padding: 2px;
+    background-color: rgb(223, 197, 52);
 }
 
 /* Trail Links */

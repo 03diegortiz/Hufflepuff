@@ -44,9 +44,12 @@ function setDifficultyColor() {
         difficultyColor.style.backgroundColor = "rgb(47, 222, 28, 40%)";
         difficultyColor.style.borderBottom = "2px solid rgb(52, 196, 42)";
     } else if (selectedHike.difficulty === "Medium" || selectedHike.difficulty === "Moderate") {
-        difficultyColor.style.backgroundColor = "rgb(237, 126, 22, 40%)";
-        difficultyColor.style.borderBottom = "2px solid rgb(237, 126, 22)";
-    } else  {
+        difficultyColor.style.backgroundColor = "rgb(233, 240, 18, 40%)";
+        difficultyColor.style.borderBottom = "2px solid rgb(233, 240, 18)";
+    } else  if (selectedHike.difficulty === "Hard") {
+        difficultyColor.style.backgroundColor = "rgb(213, 111, 52, 50%)";
+        difficultyColor.style.borderBottom = "2px solid rgb(213, 111, 52)";
+    } else {
         difficultyColor.style.backgroundColor = "rgb(214, 43, 40, 50%)";
         difficultyColor.style.borderBottom = "2px solid rgb(214, 43, 40)";
     }
