@@ -105,8 +105,32 @@ main {
     line-height: 1.5;
 }
 
+/* Notes styling */
+.notes{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.notes textarea{
+    width: 80%;
+    min-height: 100px;
+    padding: 8px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    resize: vertical;
+}
+
+.notes-buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
 /* Shared styling for both booking buttons */
-#favorites, #bookNow {
+#favorites, #addNotes {
     font-size: 18px;
     font-weight: bold;
     padding: 12px 25px;
@@ -122,17 +146,6 @@ main {
     color: white;
 }
 
-#bookNow {
-    background-color: rgb(223, 197, 52);
-}
-
-.specialRequests {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-    margin-bottom: 20px;
-}
 
 /* Footer styling */
 footer {
