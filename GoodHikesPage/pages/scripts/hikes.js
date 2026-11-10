@@ -83,9 +83,41 @@ const hikes = [
         scenery: "Offers some of the closest and most dramatic vantage points of Mount Rainier and its massive ice fields",
         image: "../images/BurroughsMountainTrail.jpg",
         map: "../images/BurroughsMountainMap.jpg"
+    },
+
+    {
+        id: "naches-peak-loop",     
+        name: "Naches Peak Loop",
+        location: "Tipsoo Lake, Chinook Pass, Mount Rainier",
+        difficulty: "Moderate",
+        trailType: "Loop",
+        distance: "3.5 miles",
+        estTime: "2 hours",
+        elevation: "500 feet",
+        parking: "Tipsoo Lake parking area",
+        entranceFee: "Park entrance fee may apply",
+        pets: "Not allowed on National Park sections",
+        scenery: "Wildflower meadows, alpine lakes, forests, and scenic views of Mount Rainier.",
+        image: "../images/NachesPeakLoop.jpeg",
+        map: "../images/NachesPeakLoopMap.png"
+    },
+
+    {
+        id: "mount-fremont-lookout",
+        name: "Mount Fremont Lookout",
+        location: "Sunrise, Mount Rainier National Park",
+        difficulty: "Moderate",
+        trailType: "Out and Back",
+        distance: "5.6 miles",
+        estTime: "3 hours",
+        elevation: "900 feet",
+        parking: "Sunrise Visitor Center parking area",
+        entranceFee: "National Park entrance fee required",
+        pets: "Not allowed",
+        scenery: "Rocky ridges, alpine meadows, Frozen Lake, historic fire lookout, and panoramic views of Mount Rainier.",
+        image: "../images/MountFremontLookout.jpg",
+        map: "../images/MountFremontLookoutMap.png"
     }
-
-
 
 ];
 

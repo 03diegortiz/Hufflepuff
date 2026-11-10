@@ -143,3 +143,27 @@ footer {
     font-size: 10px;
     margin-top: 30px;
 }
+
+
+/* MOBILE MEDIA QUERY */
+@media screen and (max-width: 767px) {
+    .trail-images {
+        grid-template-columns: 1fr;
+    }
+
+    #hikeMain {
+    grid-template-columns: 1fr;
+    }
+
+    header nav a {
+    font-size: 10px;
+    }
+
+    header {
+    padding: 15px 10px;
+    }
+
+    header h2 {
+        font-size: 15px;
+    }
+}
