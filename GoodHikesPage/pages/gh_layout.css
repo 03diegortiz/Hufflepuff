@@ -17,7 +17,7 @@ body {
 }
 
 main {
-    width: 90%;			/* allows for spacing on the sides */
+    width: 80%;			/* allows for spacing on the sides */
     max-width: 1200px;  /* prevents main content from stretching too wide*/
     margin: 0 auto;		/* centers container*/
 }
@@ -72,12 +72,12 @@ header > nav a {
 /* Two floating boxes: List of trails and Learn more */
 .sidebar-container {
     display: flex; 			/* Activates Flexbox layout */
+    flex-direction: column;
     gap: 20px;				/* Adds spacing between the two boxes */
     width: 100%;			/* Ensures the container takes up full width */
 }
 
 .listsoftrails, .LearnMore {
-    flex: 1;				/* Forces both boxes to share the space equally */
 	border: 1px solid #ccc;/* Adds a visible border */
     border-radius: 5px;     /* Rounds the corners slightly */
 	padding: 15px;			/* Adds breathing room inside the boxes */
@@ -93,9 +93,23 @@ header > nav a {
 }
 
 .trail-card {
-    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: start;
+    gap: 20px;
+    margin-bottom: 20px;
     border-bottom: 2px solid rgb(225, 188, 4);
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+.trail-card img {
+    width: 90%;
+    max-height: 300px;
+    margin: 0 auto;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 5px;
+    border: 2px solid rgb(227, 225, 215);
 }
 
 /* MOBILE MEDIA QUERY */
@@ -124,11 +138,15 @@ header > nav a {
     }
 
     body main #leftcol h1 {
-        font-size: 24px;
+        font-size: 26px;
     }
 
-    .sidebar-container {
-        flex-direction: column;
+    .trail-card {
+        grid-template-columns: 1fr;
+    }
+
+    .trail-card img {
+    width: 100%;
     }
 
     .listsoftrails,
@@ -137,7 +155,7 @@ header > nav a {
     }
 
     .listsoftrails {
-        height: 400px;
+        height: 500px;
         flex: none;
         overflow-y: auto;
     }

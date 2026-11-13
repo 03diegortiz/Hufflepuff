@@ -9,7 +9,7 @@ difficultyFilter.addEventListener("change", function () {
         const trailDifficulty = card.dataset.difficulty;
 
         if (selectedDifficulty === "All" || trailDifficulty === selectedDifficulty) {
-            card.style.display = "block";
+            card.style.display = "grid";
         } else {
             card.style.display = "none";
         }
