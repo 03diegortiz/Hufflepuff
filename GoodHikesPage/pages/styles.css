@@ -77,14 +77,15 @@ select {
     text-decoration: none;
 }
 
-article a {
+article div a {
     display: inline-block;
     transition: transform 0.3s;
 }
 
-article a:hover {
+article div a:hover {
     transform: scale(1.1);
 }
+
 
 /* Footer */
 footer {

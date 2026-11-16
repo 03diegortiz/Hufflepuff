@@ -20,7 +20,7 @@ const hikes = [
     {
         id: "myrtle-falls",
         name: "Myrtle Falls",
-        location: "Mount Rainier National Park, Paradise",
+        location: "Mount Rainier National Park",
         difficulty: "Easy",
         trailType: "Out and Back",
         distance: 0.8,
@@ -37,7 +37,7 @@ const hikes = [
     {
         id: "narada-falls",
         name: "Narada Falls",
-        location: "Mount Rainier National Park, Paradise Area",
+        location: "Mount Rainier National Park",
         difficulty: "Easy",
         trailType: "Out and Back",
         distance: 0.2,
@@ -54,7 +54,7 @@ const hikes = [
     {
         id: "pinnacle-peak",
         name: "Pinnacle Peak Trail",
-        location: "Mount Rainier National Park, Paradise Area",
+        location: "Mount Rainier National Park",
         difficulty: "Hard",
         trailType: "Out and Back",
         distance: 3,
@@ -71,7 +71,7 @@ const hikes = [
     {
         id: "burroughs-mountain",
         name: "Burroughs Mountain Trail",
-        location: "Mount Rainier National Park, Paradise Area",
+        location: "Mount Rainier National Park",
         difficulty: "Strenuous",
         trailType: "Out and Back",
         distance: 9,
@@ -88,11 +88,11 @@ const hikes = [
     {
         id: "naches-peak-loop",     
         name: "Naches Peak Loop",
-        location: "Tipsoo Lake, Chinook Pass, Mount Rainier",
+        location: "Mount Rainier National Park",
         difficulty: "Moderate",
         trailType: "Loop",
         distance: "3.5 miles",
-        estTime: "2 hours",
+        estimatedTime: "2 hours",
         elevation: "500 feet",
         parking: "Tipsoo Lake parking area",
         entranceFee: "Park entrance fee may apply",
@@ -105,11 +105,11 @@ const hikes = [
     {
         id: "mount-fremont-lookout",
         name: "Mount Fremont Lookout",
-        location: "Sunrise, Mount Rainier National Park",
+        location: "Mount Rainier National Park",
         difficulty: "Moderate",
         trailType: "Out and Back",
         distance: "5.6 miles",
-        estTime: "3 hours",
+        estimatedTime: "3 hours",
         elevation: "900 feet",
         parking: "Sunrise Visitor Center parking area",
         entranceFee: "National Park entrance fee required",
