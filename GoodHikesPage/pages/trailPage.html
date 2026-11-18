@@ -12,7 +12,7 @@
             <nav class="vertical">
                 <ul>
                 <li><a href="GoodHike_Trails.html">Home</a></li>
-                <li><a href="pages/favorite-trails.html">Favorite Trails</a></li>
+                <li><a href="favorite-trails.html">Favorite Trails</a></li>
                 </ul>
             </nav> 
         </header>
@@ -57,11 +57,11 @@
                     <h2>Notes</h2>
 
                     <textarea id="hikeNotes" name="hikeNotes" rows="8" cols="40" placeholder="Write your hiking notes here"></textarea>
-                <div class="notes-buttons">
-                    <button type="button" id="addNotes">Add Notes</button>
-                    <button type="button" id="favorites">Add to Favorites</button>
+                    <div class="notes-buttons">
+                        <button type="button" id="addNotes" onclick="addNotes()">Add Notes</button>
+                        <button type="button" id="favorites" onclick="addToFavorites()">Add to Favorites</button>
 
-                </div>
+                    </div>
                     
                 </section>
             </div>
@@ -73,5 +73,6 @@
 
         <script src="scripts/hikes.js"></script>
         <script src="scripts/trailPage.js"></script>
+        <script src="scripts/favorites.js"></script>
     </body>
 </html>

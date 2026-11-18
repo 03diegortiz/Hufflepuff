@@ -144,6 +144,15 @@ main {
 #favorites {
     background-color: rgb(8, 17, 72);
     color: white;
+    transition: transform 0.15s;
+}
+
+#favorites:hover {
+    background-color: rgb(17, 34, 141);
+}
+
+#favorites:active {
+    transform: scale(0.9);
 }
 
 
