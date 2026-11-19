@@ -58,10 +58,21 @@ section {
     color: rgb(223, 197, 52); /* colored headings */
 }
 
-#filterContainer {
+/* Difficulty and Park Filters */
+.filter-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
     border-bottom: 2px solid rgb(223, 197, 52);
     padding-bottom: 15px;
     margin-bottom: 20px;
+}
+
+.filter-group {
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 select {
