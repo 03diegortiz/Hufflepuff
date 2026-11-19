@@ -293,7 +293,7 @@ const hikes = [
         id: "sahale-arm",
         name: "Sahale Arm Trail",
         location: "North Cascades",
-        difficulty: "Hard",
+        difficulty: "Strenuous",
         trailType: "Unknown",
         distance: 11.85,
         estimatedTime: "6–8 hours",
