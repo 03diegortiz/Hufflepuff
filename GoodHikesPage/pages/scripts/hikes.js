@@ -241,7 +241,7 @@ const hikes = [
     {
         id: "rainy-lake",
         name: "Rainy Lake Trail",
-        location: "North Cascades",
+        location: "North Cascades National Park ",
         difficulty: "Easy",
         trailType: "Unknown",
         distance: 2,
@@ -258,7 +258,7 @@ const hikes = [
     {
         id: "blue-lake",
         name: "Blue Lake Trail",
-        location: "North Cascades",
+        location: "North Cascades National Park",
         difficulty: "Moderate",
         trailType: "Unknown",
         distance: 4.75,
@@ -275,7 +275,7 @@ const hikes = [
     {
         id: "maple-pass-loop",
         name: "Maple Pass Loop",
-        location: "North Cascades",
+        location: "North Cascades National Park",
         difficulty: "Hard",
         trailType: "Loop",
         distance: 7.2,
@@ -292,7 +292,7 @@ const hikes = [
     {
         id: "sahale-arm",
         name: "Sahale Arm Trail",
-        location: "North Cascades",
+        location: "North Cascades National Park",
         difficulty: "Hard",
         trailType: "Unknown",
         distance: 11.85,

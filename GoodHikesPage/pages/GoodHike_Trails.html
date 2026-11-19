@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -16,73 +17,88 @@
                <li><a href="GoodHike_Trails.html">Home</a></li>
                <li><a href="favorite-trails.html">Favorite Trails</a></li>
             </ul>
-         </nav> 
+         </nav>
       </header>
+
       <main>
          <section id="leftcol">
             <h1>Welcome to Good Hike Trails</h1>
             <p>Good Hike Trails is a website dedicated to helping you find the best hiking trails in Mount Rainer National Park. Whether you're a seasoned hiker or just starting out, we have something for everyone. Explore our favorite trails, learn about the team behind Good Hike Trails, and get in touch with us for any questions or suggestions.</p>
-         
+
             <div class="sidebar-container">
                <aside class="listsoftrails">
                   <h2>List of Trails</h2>
 
+                  <!--Diffculty Filter-->
                   <div id="filterContainer">
                      <label for="difficultyFilter">Filter by Difficulty</label>
                      <select id="difficultyFilter">
                         <option value="All">All Difficulties</option>
                         <option value="Easy">Easy</option>
-                        <option value="Moderate">Moderate</option>\
+                        <option value="Moderate">Moderate</option>
                         <option value="Hard">Hard</option>
                         <option value="Strenuous">Strenuous</option>
                      </select>
                   </div>
-                  
-                  <article class="trail-card" data-difficulty="Easy">
+
+                  <!--Park Filter-->
+                  <div id="filterContainer">
+                     <label for="parkFilter">Filter by Park</label>
+                     <select id="parkFilter">
+                        <option value="All">All Parks</option>
+                        <option value="Mount Rainier National Park">Mount Rainier National Park</option>
+                        <option value="Olympic National Park">Olympic National Park</option>
+                        <option value="North Cascades National Park">North Cascades National Park</option>
+                     </select>
+                  </div>
+
+                  <!--Mount Rainier National Park Trails-->
+
+                  <article class="trail-card" data-difficulty="Easy" data-park="Mount Rainier National Park">
                      <div>
                         <h3>Nisqually Vista Trail</h3>
                         <p>Length: 1.2 miles | Difficulty: Easy</p>
                         <p>Mount Rainier, Nisqually Glacier, and alpine meadows.</p>
                         <a href="trailPage.html?id=nisqually-vista">View Trail Details</a>
                      </div>
-                     
+
                      <a href="trailPage.html?id=nisqually-vista">
                         <img src="../images/NisquallyVistaTrail2.jpg" alt="Nisqually Vista Trail">
                      </a>
                   </article>
 
-                  <article class="trail-card" data-difficulty="Easy">
+                  <article class="trail-card" data-difficulty="Easy" data-park="Mount Rainier National Park">
                      <div>
                         <h3>Myrtle Falls Trail</h3>
                         <p>Length: 0.8 miles | Difficulty: Easy</p>
                         <p>Myrtle Falls, Mount Rainier, Edith Creak and Alpine meadows.</p>
                         <a href="trailPage.html?id=myrtle-falls">View Trail Details</a>
                      </div>
-                   
+
                      <a href="trailPage.html?id=myrtle-falls">
                         <img src="../images/MyrtleFalls2.jpg" alt="Myrtle Falls Trail">
                      </a>
                   </article>
 
-                  <article class="trail-card" data-difficulty="Easy">
+                  <article class="trail-card" data-difficulty="Easy" data-park="Mount Rainier National Park">
                      <div>
                         <h3>Narada Falls</h3>
                         <p>Length: 0.2 miles | Difficulty: Easy</p>
                         <p>Mount Rainier, Paradise River, and scenic waterfall views.</p>
-                        <a href="trailPage.html?id=narada-falls">View Trail Details</a>  
+                        <a href="trailPage.html?id=narada-falls">View Trail Details</a>
                      </div>
-                  
+
                      <a href="trailPage.html?id=narada-falls">
                         <img src="../images/NaradaFalls2.jpg" alt="Narada Falls">
                      </a>
                   </article>
 
-                  <article class="trail-card" data-difficulty="Moderate">
+                  <article class="trail-card" data-difficulty="Moderate" data-park="Mount Rainier National Park">
                      <div>
                         <h3>Natches Peak Loop</h3>
                         <p>Length: 3.5 miles | Difficulty: Moderate</p>
                         <p>Mount Rainer, wildflower meadows and lakes</p>
-                        <a href="trailPage.html?id=naches-peak-loop">View Trail Details</a>                        
+                        <a href="trailPage.html?id=naches-peak-loop">View Trail Details</a>
                      </div>
 
                      <a href="trailPage.html?id=naches-peak-loop">
@@ -90,7 +106,7 @@
                      </a>
                   </article>
 
-                  <article class="trail-card" data-difficulty="Moderate">
+                  <article class="trail-card" data-difficulty="Moderate" data-park="Mount Rainier National Park">
                      <div>
                         <h3>Mount Fremont Lookout</h3>
                         <p>Length: 5.6 miles | Difficulty: Moderate</p>
@@ -103,20 +119,20 @@
                      </a>
                   </article>
 
-                  <article class="trail-card" data-difficulty="Hard">
+                  <article class="trail-card" data-difficulty="Hard" data-park="Mount Rainier National Park">
                      <div>
                         <h3>Pinnacle Peak Trail</h3>
                         <p>Length: 3 miles | Difficulty: Hard</p>
                         <p>View of the north side of MOunt rainer, the White River valley, surrounding farmlands.</p>
-                        <a href="trailPage.html?id=pinnacle-peak">View Trail Details</a>  
+                        <a href="trailPage.html?id=pinnacle-peak">View Trail Details</a>
                      </div>
 
                      <a href="trailPage.html?id=pinnacle-peak">
                         <img src="../images/PinnaclePeakTrail2.jpg" alt="Pinnacle Peak Trail">
                      </a>
                   </article>
-                  
-                  <article class="trail-card" data-difficulty="Strenuous">
+
+                  <article class="trail-card" data-difficulty="Strenuous" data-park="Mount Rainier National Park">
                      <div>
                         <h3>Burroughs Mountain Trail</h3>
                         <p>Length: 9 miles | Difficulty: Streneous</p>
@@ -129,7 +145,9 @@
                      </a>
                   </article>
 
-                  <article class="trail-card" data-difficulty="Easy">
+                  <!--Olympic National Park Trails-->
+
+                  <article class="trail-card" data-difficulty="Easy" data-park="Olympic National Park">
                      <div>
                         <h3>Madison Falls</h3>
                         <p>Length: 0.25 miles | Difficulty: Easy</p>
@@ -142,7 +160,7 @@
                      </a>
                   </article>
 
-                  <article class="trail-card" data-difficulty="Easy">
+                  <article class="trail-card" data-difficulty="Easy" data-park="Olympic National Park">
                      <div>
                         <h3>Devils Punchbowl</h3>
                         <p>Length: 2.4 miles | Difficulty: Easy</p>
@@ -155,7 +173,7 @@
                      </a>
                   </article>
 
-                  <article class="trail-card" data-difficulty="Moderate">
+                  <article class="trail-card" data-difficulty="Moderate" data-park="Olympic National Park">
                      <div>
                         <h3>Hurricane Hill</h3>
                         <p>Length: 3.5 miles | Difficulty: Moderate</p>
@@ -168,7 +186,7 @@
                      </a>
                   </article>
 
-                  <article class="trail-card" data-difficulty="Moderate">
+                  <article class="trail-card" data-difficulty="Moderate" data-park="Olympic National Park">
                      <div>
                         <h3>Rialto Beach Trail</h3>
                         <p>Length: 3.3 miles | Difficulty: Moderate</p>
@@ -181,7 +199,7 @@
                      </a>
                   </article>
 
-                  <article class="trail-card" data-difficulty="Hard">
+                  <article class="trail-card" data-difficulty="Hard" data-park="Olympic National Park">
                      <div>
                         <h3>Grand Lake</h3>
                         <p>Length: 8.35 miles | Difficulty: Hard</p>
@@ -194,7 +212,7 @@
                      </a>
                   </article>
 
-                  <article class="trail-card" data-difficulty="Strenuous">
+                  <article class="trail-card" data-difficulty="Strenuous" data-park="Olympic National Park">
                      <div>
                         <h3>Mount Storm King</h3>
                         <p>Length: 4.5 miles | Difficulty: Strenuous</p>
@@ -207,7 +225,9 @@
                      </a>
                   </article>
 
-                  <article class="trail-card" data-difficulty="Easy">
+                  <!--North Cascades and Ross Lake Trails-->
+
+                  <article class="trail-card" data-difficulty="Easy" data-park="Ross Lake National Recreation Area">
                      <div>
                         <h3>Thunder Knob Trail</h3>
                         <p>Length: 3.45 miles | Difficulty: Easy</p>
@@ -220,7 +240,7 @@
                      </a>
                   </article>
 
-                  <article class="trail-card" data-difficulty="Easy">
+                  <article class="trail-card" data-difficulty="Easy" data-park="North Cascades National Park">
                      <div>
                         <h3>Rainy Lake Trail</h3>
                         <p>Length: 2 miles | Difficulty: Easy</p>
@@ -233,7 +253,7 @@
                      </a>
                   </article>
 
-                  <article class="trail-card" data-difficulty="Moderate">
+                  <article class="trail-card" data-difficulty="Moderate" data-park="North Cascades National Park">
                      <div>
                         <h3>Blue Lake Trail</h3>
                         <p>Length: 4.75 miles | Difficulty: Moderate</p>
@@ -246,7 +266,7 @@
                      </a>
                   </article>
 
-                  <article class="trail-card" data-difficulty="Hard">
+                  <article class="trail-card" data-difficulty="Hard" data-park="North Cascades National Park">
                      <div>
                         <h3>Maple Pass Loop</h3>
                         <p>Length: 7.2 miles | Difficulty: Hard</p>
@@ -259,7 +279,7 @@
                      </a>
                   </article>
 
-                  <article class="trail-card" data-difficulty="Hard">
+                  <article class="trail-card" data-difficulty="Hard" data-park="North Cascades National Park">
                      <div>
                         <h3>Sahale Arm Trail</h3>
                         <p>Length: 11.85 miles | Difficulty: Hard</p>
@@ -271,7 +291,8 @@
                         <img src="../images/SahaleArm2.jpg" alt="Sahale Arm Trail">
                      </a>
                   </article>
-               </aside> 
+
+               </aside>
 
                <aside class="LearnMore">
                   <h2>Learn More About Our Hikes</h2>
@@ -284,9 +305,11 @@
             </div>
          </section>
       </main>
+
       <footer>
          Good Hike Trails &copy; 2026 All Rights Reserved
       </footer>
+
       <script src="scripts/filter.js"></script>
 
    </body>
