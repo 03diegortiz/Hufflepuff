@@ -1,6 +1,7 @@
 /* ADD FAVORITES */
 //call the display function
 displayFavorites();
+displayNotes();
 
 //function called when add to favorites button is pressed
 function addToFavorites() {
@@ -82,4 +83,78 @@ function displayFavorites() {
 
 
 /* ADD NOTES */
+function addNotes() {
+    const notes = document.getElementById("hikeNotes").value;
 
+    let savedNotes = [];
+    let storedNotes = localStorage.getItem("hikeNotes");
+
+    if (storedNotes !== null && storedNotes !== "") {
+        savedNotes = storedNotes.split("|");
+    }
+
+    let newNote = selectedHike.name + ": " + notes;
+
+    savedNotes.push(newNote);
+
+    localStorage.setItem("hikeNotes", savedNotes.join("|"));
+}
+
+function displayNotes() {
+    let savedNotes = [];
+    let storedNotes = localStorage.getItem("hikeNotes");
+
+    if (storedNotes !== null && storedNotes !== "") {
+        savedNotes = storedNotes.split("|");
+    }
+
+    const notes = document.querySelector("#notes");
+
+    // clear prev notes
+    notes.innerHTML = "";
+
+    //loop throught Data, if hike names match, update innerHTML to show hike name and note
+    for (const hike of hikes) {
+        const article = document.createElement("article");
+        article.className = "notes-card";
+        article.innerHTML = `<h3>${hike.name}</h3>`;
+        let hasNotes = false;
+
+        for(const note of savedNotes) {
+            //stored as ["hike-name", "note"]
+            let noteSplit = note.split(": ");
+
+            if(noteSplit[0] === hike.name) {
+                hasNotes = true;
+                const hikeNote = document.createElement("p");
+                hikeNote.textContent = "-" + noteSplit[1];
+                article.appendChild(hikeNote);
+            }
+        }
+
+        if (hasNotes == true) {
+            const removeNotes = document.createElement("button");
+            removeNotes.textContent = "-"
+            article.appendChild(removeNotes);
+            notes.appendChild(article);
+
+            removeNotes.addEventListener("click", () => {
+
+            // Loop backwards through saved notes
+            for (let i = savedNotes.length - 1; i >= 0; i--) {
+                let noteSplit = savedNotes[i].split(": ");
+
+                // Remove all notes associated with this hike
+                if (noteSplit[0] === hike.name) {
+                    savedNotes.splice(i, 1);
+                }
+            }
+            // Update localStorage
+            localStorage.setItem("hikeNotes", savedNotes.join("|"));
+
+            // Remove the entire article from the page
+            article.remove();
+            });
+        }
+    }
+}

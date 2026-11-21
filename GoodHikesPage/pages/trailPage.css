@@ -155,6 +155,18 @@ main {
     transform: scale(0.9);
 }
 
+#addNotes {
+    transition: transform 0.15s;
+}
+
+#addNotes:hover {
+    background-color: rgb(216, 195, 59);
+}
+
+#addNotes:active {
+    transform: scale(0.9);
+}
+
 
 /* Footer styling */
 footer {

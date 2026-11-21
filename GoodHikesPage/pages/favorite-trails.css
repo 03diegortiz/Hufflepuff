@@ -50,9 +50,10 @@ h1 {
     width: 100%;
     border-top: 2px solid rgb(5, 4, 57);
     border-bottom: 2px solid rgb(5, 4, 57);
-    background-color: rgb(215, 215, 215);
+    background-color: rgba(120, 124, 218, 0.374);
     padding: 15px;
     margin-top: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -60,7 +61,7 @@ h1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    min-height: 200px;
+    min-height: 50px;
 }
 
 #fav-container > p {
@@ -83,6 +84,7 @@ h1 {
     border: 2px solid rgb(223, 197, 52);
     border-radius: 10px;
     padding: 20px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 #fav-container article h2 {
@@ -102,19 +104,43 @@ h1 {
     color: rgb(223, 197, 52);
 }
  
+
+
+/* Notes */
 #notes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
     background-color: rgb(218, 219, 220);
-    margin-bottom: 20px;
-
 }
 
-#notes h2 {
+#notesTitle {
     text-align: center;
-    padding: 10px;
-    border-bottom: 2px solid black;
     border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 15px;
+    background-color: rgba(120, 124, 218, 0.374);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
+.notes-card {
+    border: 1px solid black;
+    padding: 15px;
+    background-color: rgb(233, 235, 237);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.notes-card h3 {
+    font-size: 16px;
+    text-align: left;
+    padding-bottom: 5px;
+    border-bottom: 1.5px solid black;
+}
+
+.notes-card button {
+    align-items: end;
+    background-color: rgb(223, 197, 52);
+}
 
 /* Footer */
 footer {
@@ -141,6 +167,10 @@ footer {
 
     main {
         width: 95%;
+    }
+
+    #notes {
+        grid-template-columns: 1fr;
     }
 
     footer {
