@@ -23,11 +23,14 @@ h1 {
 
 .hero-banner {
     position: relative;
+	display: block;
     width: 100%;
+	overflow: hidden;
 }
 
 .hero-banner img {
     width: 100%;
+	height: auto;
     display: block;
 }
 
