@@ -33,15 +33,16 @@ h1 {
 
 .hero-text {
     position: absolute;
-    top: 50%;
+    top: 78%; /* Moved down from 50% — increase or decrease to fine-tune */
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(5, 4, 57, 0.75); /* Matches dark navy nav color */
+    background-color: rgba(5, 4, 57, 0.75);
     padding: 15px 30px;
     border-radius: 6px;
-    border: 2px solid rgb(223, 197, 52); /* Matches gold accent */
+    border: 2px solid rgb(223, 197, 52);
     text-align: center;
 }
+
 
 .hero-text h1 {
 	color: rgb(223, 197, 52); /* Gold text so it pops against the dark backdrop */
@@ -49,7 +50,7 @@ h1 {
     border-bottom: none; /* Removes the underline from your global h1 rule */
     font-size: 36px;
 }
-/* New text code done here
+/* New text code done here*/
 
 	
 header nav ul li a {
