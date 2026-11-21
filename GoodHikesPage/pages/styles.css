@@ -20,6 +20,38 @@ h1 {
 }
 
 /* Header Navigation */
+
+.hero-banner {
+    position: relative;
+    width: 100%;
+}
+
+.hero-banner img {
+    width: 100%;
+    display: block;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(5, 4, 57, 0.75); /* Matches dark navy nav color */
+    padding: 15px 30px;
+    border-radius: 6px;
+    border: 2px solid rgb(223, 197, 52); /* Matches gold accent */
+    text-align: center;
+}
+
+.hero-text h1 {
+	color: rgb(223, 197, 52); /* Gold text so it pops against the dark backdrop */
+    margin: 0;
+    border-bottom: none; /* Removes the underline from your global h1 rule */
+    font-size: 36px;
+}
+/* New text code done here
+
+	
 header nav ul li a {
     color: rgb(223, 197, 52); /*text in the navigation bar*/
     text-decoration: none;
