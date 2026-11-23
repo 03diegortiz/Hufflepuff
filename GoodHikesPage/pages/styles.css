@@ -36,9 +36,12 @@ h1 {
 
 .hero-text {
     position: absolute;
-    top: 78%; /* Moved down from 50% — increase or decrease to fine-tune */
+    bottom: 15px;             
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%); 
+    width: 85%;
+    max-width: 900px;
+    box-sizing: border-box;
     background-color: rgba(5, 4, 57, 0.75);
     padding: 15px 30px;
     border-radius: 6px;
@@ -46,13 +49,28 @@ h1 {
     text-align: center;
 }
 
-
 .hero-text h1 {
-	color: rgb(223, 197, 52); /* Gold text so it pops against the dark backdrop */
+    color: rgb(223, 197, 52);
     margin: 0;
-    border-bottom: none; /* Removes the underline from your global h1 rule */
-    font-size: 36px;
+    border-bottom: none;
+    font-size: clamp(20px, 4.5vw, 42px);
+    letter-spacing: clamp(1px, 0.4vw, 3px);
+    white-space: nowrap;
 }
+
+/* Mobile Adjustments */
+@media (max-width: 600px) {
+    .hero-text {
+        bottom: 8px;          
+        width: 92%;
+        padding: 8px 12px;
+    }
+
+    .hero-text h1 {
+        white-space: normal;
+    }
+}
+
 /* New text code done here*/
 
 	
@@ -142,3 +160,4 @@ footer {
 	padding: 10px;
     font-size: 10px;
 }
+
