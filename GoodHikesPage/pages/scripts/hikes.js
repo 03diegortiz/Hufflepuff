@@ -14,7 +14,9 @@ const hikes = [
         pets: "Not allowed",
         scenery: "Mount Rainier, Nisqually Glacier, and alpine meadows",
         image: "../images/NisquallyVistaTrail.jpg",
-        map: "../images/NisquallyVistaMap.png"
+        map: "../images/NisquallyVistaMap.png",
+        latitude: 46.785, //coordinates for paradise, Mt Rainier
+        longitude: -121.745
     },
 
     {
@@ -31,7 +33,9 @@ const hikes = [
         pets: "Not allowed",
         scenery: "Myrtle Falls, Mount Rainier, Edith Creek, and alpine meadows",
         image: "../images/MyrtleFalls.jpg",
-        map: "../images/MyrtleFallsMap.png"
+        map: "../images/MyrtleFallsMap.png",
+        latitude: 46.785,
+        longitude: -121.745
     },
 
     {
@@ -48,7 +52,9 @@ const hikes = [
         pets: "Not allowed on trails",
         scenery: "Narada Falls, lush forests, rocky cliffs, and waterfall mist",
         image: "../images/NaradaFalls.jpg",
-        map: "../images/NaradaFallsMap.png"
+        map: "../images/NaradaFallsMap.png",
+        latitude: 46.785,
+        longitude: -121.745
     },
 
     {
@@ -65,7 +71,9 @@ const hikes = [
         pets: "Not allowed on trails",
         scenery: "View of the north side of Mount Rainier, the White River valley, surrounding farmlands, and nearby towns like Buckley and Enumclaw",
         image: "../images/PinaclePeakTrail.jpg",
-        map: "../images/PinnaclePeakMap.jpg"
+        map: "../images/PinnaclePeakMap.jpg",
+        latitude: 46.785,
+        longitude: -121.745
     },
 
     {
@@ -82,7 +90,9 @@ const hikes = [
         pets: "Not allowed on trails",
         scenery: "Offers some of the closest and most dramatic vantage points of Mount Rainier and its massive ice fields",
         image: "../images/BurroughsMountainTrail.jpg",
-        map: "../images/BurroughsMountainMap.jpg"
+        map: "../images/BurroughsMountainMap.jpg",
+        latitude: 46.785,
+        longitude: -121.745
     },
 
     {
@@ -99,7 +109,9 @@ const hikes = [
         pets: "Not allowed on National Park sections",
         scenery: "Wildflower meadows, alpine lakes, forests, and scenic views of Mount Rainier.",
         image: "../images/NachesPeakLoop.jpeg",
-        map: "../images/NachesPeakLoopMap.png"
+        map: "../images/NachesPeakLoopMap.png",
+        latitude: 46.785,
+        longitude: -121.745
     },
 
     {
@@ -116,7 +128,9 @@ const hikes = [
         pets: "Not allowed",
         scenery: "Rocky ridges, alpine meadows, Frozen Lake, historic fire lookout, and panoramic views of Mount Rainier.",
         image: "../images/MountFremontLookout.jpg",
-        map: "../images/MountFremontLookoutMap.png"
+        map: "../images/MountFremontLookoutMap.png",
+        latitude: 46.785,
+        longitude: -121.745
     },
 
     {
@@ -133,7 +147,9 @@ const hikes = [
         pets: "Allowed on leash",
         scenery: "Mossy forest grotto, waterfall, mountain and river views",
         image: "../images/MadisonFalls.jpg",
-        map: "../images/MadisonFallsMap.jpg"
+        map: "../images/MadisonFallsMap.jpg",
+        latitude: 47.969,
+        longitude: -123.499
     },
 
     {
@@ -150,7 +166,9 @@ const hikes = [
         pets: "Allowed on leash",
         scenery: "Sheltered swimming cove with clear turquoise water along Lake Crescent",
         image: "../images/DevilsPunchbowl.jpg",
-        map: "../images/DevilsPunchbowlMap.jpg"
+        map: "../images/DevilsPunchbowlMap.jpg",
+        latitude: 47.969,
+        longitude: -123.499
     },
 
     {
@@ -167,7 +185,9 @@ const hikes = [
         pets: "Not allowed",
         scenery: "Paved mountain trail with scenic views from a 5,757-foot peak",
         image: "../images/HurricaneHill.jpg",
-        map: "../images/HurricaneHillMap.jpg"
+        map: "../images/HurricaneHillMap.jpg",
+        latitude: 47.969,
+        longitude: -123.499
     },
 
     {
@@ -184,7 +204,9 @@ const hikes = [
         pets: "Allowed on leash",
         scenery: "Pacific coastline, ocean views, and a wave-carved natural rock arch",
         image: "../images/RialtoBeach.jpg",
-        map: "../images/RialtoBeachMap.jpg"
+        map: "../images/RialtoBeachMap.jpg",
+        latitude: 47.969,
+        longitude: -123.499
     },
 
     {
@@ -201,7 +223,9 @@ const hikes = [
         pets: "Not allowed",
         scenery: "High-altitude alpine lake surrounded by mountains and forests",
         image: "../images/GrandLake.jpg",
-        map: "../images/GrandLakeMap.jpg"
+        map: "../images/GrandLakeMap.jpg",
+        latitude: 47.969,
+        longitude: -123.499
     },
 
     {
@@ -218,7 +242,9 @@ const hikes = [
         pets: "Not allowed",
         scenery: "Panoramic views of Lake Crescent, Olympic Mountains, and distant San Juan Islands",
         image: "../images/MountStormKing.jpg",
-        map: "../images/MountStormKingMap.jpg"
+        map: "../images/MountStormKingMap.jpg",
+        latitude: 47.969,
+        longitude: -123.499
     },
 
     {
@@ -235,7 +261,9 @@ const hikes = [
         pets: "Allowed on leash",
         scenery: "Family-friendly mountain trail with views of the Ross Lake recreation area",
         image: "../images/ThunderKnob.jpg",
-        map: "../images/ThunderKnobMap.jpg"
+        map: "../images/ThunderKnobMap.jpg",
+        latitude: 48.711,
+        longitude: -121.097
     },
 
     {
@@ -252,7 +280,9 @@ const hikes = [
         pets: "Allowed on leash",
         scenery: "Turquoise glacier-fed lake reflecting jagged North Cascades peaks",
         image: "../images/RainyLake.jpg",
-        map: "../images/RainyLakeMap.jpg"
+        map: "../images/RainyLakeMap.jpg",
+        latitude: 48.518,
+    longitude: -120.735
     },
 
     {
@@ -269,7 +299,9 @@ const hikes = [
         pets: "Allowed on leash",
         scenery: "Turquoise alpine lake, granite peaks, Liberty Bell Mountain, wildflowers, and mountain goats",
         image: "../images/BlueLake.jpg",
-        map: "../images/BlueLakeMap.jpg"
+        map: "../images/BlueLakeMap.jpg",
+        latitude: 48.518,
+        longitude: -120.735
     },
 
     {
@@ -286,7 +318,9 @@ const hikes = [
         pets: "Allowed on leash on marked trails",
         scenery: "360-degree views of Black Peak, Corteo Peak, Frisco Mountain, and the Liberty Bell group",
         image: "../images/MaplePassLoop.jpg",
-        map: "../images/MaplePassLoopMap.jpg"
+        map: "../images/MaplePassLoopMap.jpg",
+        latitude: 48.518,
+        longitude: -120.735
     },
 
     {
@@ -303,7 +337,9 @@ const hikes = [
         pets: "Not allowed",
         scenery: "Johannesburg Mountain, Eldorado Peak, Boston Peak, Doubtful Lake, mountain goats, marmots, and black bears",
         image: "../images/SahaleArm.jpg",
-        map: "../images/SahaleArmMap.jpg"
+        map: "../images/SahaleArmMap.jpg",
+        latitude: 48.518,
+        longitude: -120.735
     }
 
 ];

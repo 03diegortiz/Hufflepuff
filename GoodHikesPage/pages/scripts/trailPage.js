@@ -18,6 +18,11 @@ assignHikeContent();
 //call func to assign color by difficulty level
 setDifficultyColor();
 
+//load weather for the selected hike
+if (selectedHike) {
+    loadWeather(selectedHike.latitude, selectedHike.longitude);
+}
+
 //function to assign content to trailPage.html page
 function assignHikeContent() {
     document.querySelector("#hikeName").textContent = selectedHike.name;
